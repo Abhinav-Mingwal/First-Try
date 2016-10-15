@@ -16,6 +16,7 @@ public class FavoriteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.i("ABCD","Demo");
         setContentView(R.layout.activity_favorite);
         listView=(ListView)findViewById(R.id.Fav_list);
         favorites=new ArrayList<>();
